@@ -37,7 +37,7 @@ services:
       - 8043:8043
   omada-controller-openj9:
     container_name: omada_openj9
-    image: 1eddddeef383ebc8cac7c546e9c8653d96da03ace7a6709530fccd85d738f99a
+    image: 6259922e1111a3abe7b630f677d83a0e7621d5f55efe3070e6097e1492b72ffb
     restart: unless-stopped
     deploy:
       resources:
